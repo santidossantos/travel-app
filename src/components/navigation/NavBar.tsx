@@ -8,7 +8,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 
 export default function NavBar() {
   return (
-    <Box sx={{ flexGrow: 0.98 }}>
+    <Box sx={{ flexGrow: 0.96 }}>
       <AppBar
         position="static"
         color="transparent"

@@ -5,6 +5,7 @@ import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/700.css'
 import NavBar from './components/navigation/NavBar'
 import CityList from './components/cities/CityList'
+import cityItems from './mocks/city-items.json'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
 
       <main>
         <section className="slider">
-          <CityList />
+          <CityList cities={cityItems} />
         </section>
       </main>
     </>

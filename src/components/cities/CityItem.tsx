@@ -1,11 +1,6 @@
-import { Alert, Box, Button } from '@mui/material'
 import '../../styles/cities/CityItem.css'
-
-interface CityItemProps {
-  title: string
-  subtitle: string
-  imageUrl: string
-}
+import { Alert, Box, Button } from '@mui/material'
+import { CityItemProps } from '../../interfaces/city-item-props'
 
 export function CityItem({ title, subtitle, imageUrl }: CityItemProps) {
   return (
@@ -66,8 +61,11 @@ export function CityItem({ title, subtitle, imageUrl }: CityItemProps) {
           sx={{
             backgroundColor: 'rgba(58, 61, 59, 0.9)',
             color: 'white',
-            borderRadius: 3,
+            borderRadius: 1,
             width: '100%',
+            '& .MuiAlert-icon': {
+              color: 'white',
+            },
           }}
         >
           Mas informacion
