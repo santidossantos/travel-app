@@ -6,7 +6,9 @@ import Button from '@mui/material/Button'
 import IconButton from '@mui/material/IconButton'
 import MenuIcon from '@mui/icons-material/Menu'
 
+
 export default function NavBar() {
+  //Prueba
   return (
     <Box sx={{ flexGrow: 0.96 }}>
       <AppBar
