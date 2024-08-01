@@ -10,7 +10,9 @@ function App() {
   return (
     <>
       <header>
-        <NavBar />
+        <nav>
+          <NavBar />
+        </nav>
       </header>
 
       <main>
