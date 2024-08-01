@@ -12,7 +12,7 @@ export default function NavBar() {
       <AppBar
         position="static"
         color="transparent"
-        sx={{ backdropFilter: 'blur(40px)' }}
+        sx={{ backdropFilter: 'blur(20px)', padding: 1, borderRadius: 4 }}
       >
         <Toolbar>
           <IconButton

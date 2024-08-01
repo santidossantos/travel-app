@@ -10,10 +10,9 @@ export default function CityList() {
     <Swiper navigation modules={[Navigation]}>
       <SwiperSlide>
         <CityItem
-          title="Destino Senegal"
-          subtitle="Una Aventura A Vivir"
-          imageUrl="https://media.cntraveler.com/photos/58ecf3b92ec89232fccf6417/16:9/w_2560%2Cc_limit/GettyImages-141946945.jpg
-"
+          title="Destination Senegal"
+          subtitle="Una Aventura para Vivir!"
+          imageUrl="https://i.ibb.co/n3G8Z0b/senegal.png"
         />
       </SwiperSlide>
       <SwiperSlide>
