@@ -1,34 +1,28 @@
 import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
 import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
-import IconButton from '@mui/material/IconButton'
-import MenuIcon from '@mui/icons-material/Menu'
-
 
 export default function NavBar() {
-  //Prueba
   return (
-    <Box sx={{ flexGrow: 0.96 }}>
+    <Box sx={{ flexGrow: 1 }}>
       <AppBar
         position="static"
         color="transparent"
-        sx={{ backdropFilter: 'blur(20px)', padding: 1, borderRadius: 4 }}
+        sx={{
+          backdropFilter: 'blur(30px)',
+          padding: 1,
+          borderRadius: 4,
+          color: 'white',
+          background:
+            'linear-gradient(90deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,1) 35%, rgba(212,236,223,1) 100%)',
+        }}
       >
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
-          </Typography>
+          <img
+            src="https://i.ibb.co/WDNpKR0/TRIPFINDER-120-x-66-px.png"
+            style={{ transform: 'scale(0.5)' }}
+          />
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
