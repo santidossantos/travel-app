@@ -2,7 +2,7 @@ import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
-import Divider from '@mui/material/Divider'
+// import Divider from '@mui/material/Divider'
 import { NavItemProps } from '../../interfaces/nav-item-props'
 
 export default function NavBar({ navItems }: { navItems: NavItemProps[] }) {
@@ -43,8 +43,9 @@ export default function NavBar({ navItems }: { navItems: NavItemProps[] }) {
               justifyContent: 'center',
               alignItems: 'center',
               gap: 4,
-              width: '100%',
+              width: '60%',
               backgroundColor: 'rgb(187,149,147, 0.2)',
+              borderRadius: 2,
             }}
           >
             {navItems.map((item: NavItemProps) => (
@@ -66,7 +67,7 @@ export default function NavBar({ navItems }: { navItems: NavItemProps[] }) {
               </Typography>
             ))}
 
-            <Divider orientation="horizontal" flexItem />
+            {/* <Divider orientation="horizontal" flexItem /> */}
           </Box>
         </Toolbar>
       </AppBar>
