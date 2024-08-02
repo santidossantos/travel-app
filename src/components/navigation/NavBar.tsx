@@ -2,8 +2,8 @@ import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
-import { NavItemProps } from '../../interfaces/nav-item-props'
 import Divider from '@mui/material/Divider'
+import { NavItemProps } from '../../interfaces/nav-item-props'
 
 export default function NavBar({ navItems }: { navItems: NavItemProps[] }) {
   return (
@@ -28,6 +28,8 @@ export default function NavBar({ navItems }: { navItems: NavItemProps[] }) {
             alignItems: 'center',
             flexDirection: 'column',
             gap: 4,
+            width: '100%',
+            height: '100%',
           }}
         >
           <img
@@ -38,9 +40,11 @@ export default function NavBar({ navItems }: { navItems: NavItemProps[] }) {
           <Box
             sx={{
               display: 'flex',
-              justifyContent: 'space-between',
+              justifyContent: 'center',
               alignItems: 'center',
               gap: 4,
+              width: '100%',
+              backgroundColor: 'rgb(187,149,147, 0.2)',
             }}
           >
             {navItems.map((item: NavItemProps) => (
@@ -61,11 +65,11 @@ export default function NavBar({ navItems }: { navItems: NavItemProps[] }) {
                 {item.label}
               </Typography>
             ))}
+
+            <Divider orientation="horizontal" flexItem />
           </Box>
         </Toolbar>
       </AppBar>
-
-      <Divider orientation="horizontal" flexItem />
     </Box>
   )
 }
