@@ -8,6 +8,7 @@ import NavBar from './components/navigation/NavBar'
 import CityList from './components/cities/CityList'
 import cityItems from './mocks/city-items.json'
 import navItems from './mocks/nav-items.json'
+import { VideoBanner } from './components/home/VideoBanner'
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
       </header>
 
       <main>
+        <section className="video-banner">
+          <VideoBanner />
+        </section>
+
         <section className="slider">
           <CityList cities={cityItems} />
         </section>
