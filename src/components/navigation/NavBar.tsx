@@ -2,7 +2,7 @@ import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
-import Divider from '@mui/material/Divider'
+// import Divider from '@mui/material/Divider'
 import { NavItemProps } from '../../interfaces/nav-item-props'
 
 export default function NavBar({ navItems }: { navItems: NavItemProps[] }) {
