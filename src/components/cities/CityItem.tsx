@@ -2,5 +2,11 @@ import '../../styles/cities/CityItem.css'
 import { CityItemProps } from '../../interfaces/city-item-props'
 
 export function CityItem({ title, subtitle, imageUrl }: CityItemProps) {
-  return <></>
+  return (
+    <div className="city-item">
+      <h3>{title}</h3>
+      <p>{subtitle}</p>
+      <img src={imageUrl} alt={title} className="card-imagen" />
+    </div>
+  )
 }
