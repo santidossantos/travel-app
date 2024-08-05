@@ -1,12 +1,8 @@
-import '../../styles/cities/CityItem.css'
 import { CityItemProps } from '../../interfaces/city-item-props'
 import Card from '@mui/material/Card'
 import CardHeader from '@mui/material/CardHeader'
 import CardMedia from '@mui/material/CardMedia'
-import CardContent from '@mui/material/CardContent'
-import IconButton from '@mui/material/IconButton'
 import Typography from '@mui/material/Typography'
-import MoreVertIcon from '@mui/icons-material/MoreVert'
 
 export function CityItem({
   title,
@@ -15,13 +11,11 @@ export function CityItem({
   description,
 }: CityItemProps) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ width: 345, boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.1)' }}>
       <CardHeader
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+        sx={{
+          height: 90,
+        }}
         title={
           <Typography
             variant="h6"
@@ -49,12 +43,20 @@ export function CityItem({
           </Typography>
         }
       />
-      <CardMedia component="img" height="194" image={imageUrl} alt={title} />
-      <CardContent>
-        {/*  <Typography variant="body2" color="text.secondary">
+      <CardMedia
+        component="img"
+        height="194"
+        image={imageUrl}
+        alt={title}
+        sx={{
+          objectFit: 'cover',
+        }}
+      />
+      {/*  <CardContent>
+          <Typography variant="body2" color="text.secondary">
             {description}
-          </Typography> */}
-      </CardContent>
+          </Typography> 
+      </CardContent> */}
     </Card>
   )
 }

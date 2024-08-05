@@ -12,3 +12,19 @@
   justify-content: center;
   align-items: center;
 }
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  /* content: '>'; */
+  font-size: 35px;
+  color: gray;
+  opacity: 0.5;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  /* content: '<'; */
+  font-size: 35px;
+  color: gray;
+  opacity: 0.5;
+}
