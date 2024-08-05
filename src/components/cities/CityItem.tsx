@@ -8,7 +8,7 @@ import IconButton from '@mui/material/IconButton'
 import Typography from '@mui/material/Typography'
 import MoreVertIcon from '@mui/icons-material/MoreVert'
 
-export function CityItem({ title, subtitle, imageUrl }: CityItemProps) {
+export function CityItem({ title, subtitle, imageUrl, description }: CityItemProps) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
@@ -46,11 +46,11 @@ export function CityItem({ title, subtitle, imageUrl }: CityItemProps) {
       />
       <CardMedia component="img" height="194" image={imageUrl} alt={title} />
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
-        </Typography>
+        {
+          <Typography variant="body2" color="text.secondary">
+            {description}
+          </Typography>
+        }
       </CardContent>
     </Card>
   )

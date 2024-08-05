@@ -14,6 +14,7 @@ export default function CityList({ cities }: CityListProps) {
           title={city.title}
           subtitle={city.subtitle}
           imageUrl={city.imageUrl}
+          description={city.description}
         />
       ))}
     </Box>
