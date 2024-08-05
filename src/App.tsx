@@ -9,6 +9,7 @@ import CityList from './components/cities/CityList'
 import cityItems from './mocks/city-items.json'
 import navItems from './mocks/nav-items.json'
 import { VideoBanner } from './components/home/VideoBanner'
+import { BannerDescription } from './components/home/BannerDescription'
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
       <main>
         <section className="video-banner">
           <VideoBanner />
+        </section>
+
+        <section>
+          <BannerDescription />
         </section>
 
         <section className="slider">
