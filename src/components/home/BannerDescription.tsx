@@ -15,7 +15,7 @@ export function BannerDescription() {
     >
       <Typography
         sx={{
-          fontFamily: 'Didot, serif',
+          fontFamily: 'Didot eText W01 Italic',
           fontSize: '1.2rem',
           fontWeight: '200',
           textAlign: 'center',
@@ -23,6 +23,7 @@ export function BannerDescription() {
           display: 'flex',
           flexDirection: 'column',
           gap: 1,
+          verticalAlign: 'baseline',
         }}
       >
         <p style={{ margin: 0 }}>
