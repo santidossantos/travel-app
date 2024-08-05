@@ -1,21 +1,24 @@
 import 'swiper/css'
 import 'swiper/css/navigation'
 import '../../styles/cities/CityList.css'
+import { Navigation } from 'swiper/modules'
 import { CityItem } from './CityItem'
 import { CityListProps } from '../../interfaces/city-list-props'
-import { Box } from '@mui/material'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
 export default function CityList({ cities }: CityListProps) {
   return (
-    <Box>
+    <Swiper navigation={true} modules={[Navigation]} slidesPerView={3}>
       {cities.map((city, index) => (
-        <CityItem
-          key={index}
-          title={city.title}
-          subtitle={city.subtitle}
-          imageUrl={city.imageUrl}
-        />
+        <SwiperSlide key={index}>
+          <CityItem
+            title={city.title}
+            subtitle={city.subtitle}
+            imageUrl={city.imageUrl}
+            description={city.description}
+          />
+        </SwiperSlide>
       ))}
-    </Box>
+    </Swiper>
   )
 }
