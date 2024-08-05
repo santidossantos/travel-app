@@ -33,7 +33,7 @@ export default function NavBar({ navItems }: { navItems: NavItemProps[] }) {
           }}
         >
           <img
-            src="https://i.ibb.co/NWrnDdT/logo.png"
+            src="https://i.ibb.co/kD1sVh1/logo-3-1.png"
             width={204}
             height={120}
           />
