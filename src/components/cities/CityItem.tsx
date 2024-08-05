@@ -8,7 +8,12 @@ import IconButton from '@mui/material/IconButton'
 import Typography from '@mui/material/Typography'
 import MoreVertIcon from '@mui/icons-material/MoreVert'
 
-export function CityItem({ title, subtitle, imageUrl, description }: CityItemProps) {
+export function CityItem({
+  title,
+  subtitle,
+  imageUrl,
+  description,
+}: CityItemProps) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
@@ -46,11 +51,9 @@ export function CityItem({ title, subtitle, imageUrl, description }: CityItemPro
       />
       <CardMedia component="img" height="194" image={imageUrl} alt={title} />
       <CardContent>
-        {
-          <Typography variant="body2" color="text.secondary">
+        {/*  <Typography variant="body2" color="text.secondary">
             {description}
-          </Typography>
-        }
+          </Typography> */}
       </CardContent>
     </Card>
   )
