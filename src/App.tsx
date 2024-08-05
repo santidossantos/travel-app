@@ -9,6 +9,7 @@ import CityList from './components/cities/CityList'
 import cityItems from './mocks/city-items.json'
 import navItems from './mocks/nav-items.json'
 import { VideoBanner } from './components/home/VideoBanner'
+import { Footer } from './components/layout/Footer'
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
           <CityList cities={cityItems} />
         </section>
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }
