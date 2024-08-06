@@ -45,7 +45,7 @@ export function VideoBanner() {
             fontWeight: 500,
           }}
         >
-          TRIP FINDER AR.
+          TRIP FINDER
         </Typography>
         <Typography
           variant="h6"
