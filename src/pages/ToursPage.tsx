@@ -9,6 +9,7 @@ export function ToursPage() {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
+        gap: '3em',
         width: '100%',
       }}
     >
