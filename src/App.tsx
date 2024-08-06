@@ -7,6 +7,7 @@ import '@fontsource/roboto/700.css'
 import NavBar from './components/navigation/NavBar'
 import navItems from './mocks/nav-items.json'
 import { HomePage } from './pages/HomePage'
+import { TestimonialPage } from './pages/TestimonialsPage'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       </header>
 
       <main>
-        <HomePage />
+        <TestimonialPage />
       </main>
     </>
   )
