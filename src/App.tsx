@@ -8,6 +8,8 @@ import NavBar from './components/navigation/NavBar'
 import navItems from './mocks/nav-items.json'
 import { Footer } from './components/layout/Footer'
 import { HomePage } from './pages/HomePage'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { TestimonialPage } from './pages/TestimonialsPage'
 
 function App() {
   return (
@@ -19,7 +21,12 @@ function App() {
       </header>
 
       <main>
-        <HomePage />
+        <Router>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/testimonios" element={<TestimonialPage />} />
+          </Routes>
+        </Router>
       </main>
 
       <footer>

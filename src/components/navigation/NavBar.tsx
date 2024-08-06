@@ -43,7 +43,7 @@ export default function NavBar({ navItems }: { navItems: NavItemProps[] }) {
               justifyContent: 'center',
               alignItems: 'center',
               gap: 4,
-              width: '60%',
+              width: '100%',
               backgroundColor: 'rgb(187,149,147, 0.2)',
               borderRadius: 2,
             }}
