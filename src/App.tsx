@@ -10,6 +10,7 @@ import { Footer } from './components/layout/Footer'
 import { HomePage } from './pages/HomePage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { TestimonialPage } from './pages/TestimonialsPage'
+import { ToursPage } from './pages/ToursPage'
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/testimonios" element={<TestimonialPage />} />
+            <Route path="/tours" element={<ToursPage />} />
+            <Route path="*" element={<h1>404 - Not Found</h1>} />
           </Routes>
         </Router>
       </main>
