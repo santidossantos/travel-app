@@ -11,6 +11,7 @@ import { HomePage } from './pages/HomePage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { TestimonialPage } from './pages/TestimonialsPage'
 import { ToursPage } from './pages/ToursPage'
+import { ContactPage } from './pages/ContactPage'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/testimonios" element={<TestimonialPage />} />
             <Route path="/tours" element={<ToursPage />} />
+            <Route path="/contacto" element={<ContactPage />} />
             <Route path="*" element={<h1>404 - Not Found</h1>} />
           </Routes>
         </Router>
