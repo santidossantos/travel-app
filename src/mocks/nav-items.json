@@ -4,23 +4,19 @@
         "href": "/"
     },
     {
+        "label": "Ciudades",
+        "href": "/ciudades"
+    },
+    {
+        "label": "Tours",
+        "href": "/tours"
+    },
+    {
         "label": "Testimonios",
         "href": "/testimonios"
     },
     {
-        "label": "Servicios",
-        "href": "/#"
-    },
-    {
-        "label": "Comentarios",
-        "href": "/#"
-    },
-    {
-        "label": "About",
-        "href": "/about"
-    },
-    {
-        "label": "Contact",
+        "label": "Contacto",
         "href": "/contact"
     }
 ]
