@@ -40,7 +40,7 @@ export function CitiesPage() {
             paddingBlockEnd: '20px',
           }}
         >
-          Selecciona una ciudad
+          Selecciona una Ciudad
         </Typography>
         <Box
           sx={{
@@ -48,7 +48,7 @@ export function CitiesPage() {
             flexGrow: 1,
           }}
         >
-          <Swiper navigation={true} modules={[Navigation]} slidesPerView={3}>
+          <Swiper navigation={true} modules={[Navigation]} slidesPerView={4}>
             {cities.map((city) => (
               <SwiperSlide key={city.title}>
                 <CityItem
@@ -56,7 +56,8 @@ export function CitiesPage() {
                   onClick={() => handleCityClick(city)}
                   sx={{
                     cursor: 'pointer',
-                    width: 280,
+                    flex: '0 0 auto',
+                    maxWidth: 300,
                     boxShadow: '0 0 8px 0 rgba(0, 0, 0, 0.1)',
                     '& img': {
                       height: 150,
