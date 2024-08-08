@@ -26,7 +26,7 @@ export function TestimonialPage() {
             marginTop: '2%',
           }}
         >
-          OUR TESTIMONIALS
+          TESTIMONIOS
         </Typography>
         <Typography
           sx={{
@@ -37,7 +37,7 @@ export function TestimonialPage() {
             opacity: '0.8',
           }}
         >
-          What Our Customers Think
+          ¿Qué piensan nuestros clientes?
         </Typography>
       </Box>
 

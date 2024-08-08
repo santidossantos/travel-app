@@ -38,7 +38,7 @@ export function TourBanner() {
             fontFamily: 'Playfair Display, serif',
           }}
         >
-          Travel Specials & Inspiration
+          Inspiración & Ofertas
         </Typography>
         <Typography
           sx={{
@@ -46,7 +46,7 @@ export function TourBanner() {
             fontSize: '0.65em',
           }}
         >
-          <span>Bucket List Adventures</span>
+          <span>Aventuras para tu Lista de deseos</span>
         </Typography>
       </Box>
     </Box>

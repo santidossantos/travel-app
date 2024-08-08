@@ -23,7 +23,7 @@ export function Testimonial() {
           fontFamily: 'Raleway, sans-serif',
         }}
       >
-        Destinations that exceeded expectations
+        Destinos que superaron expectativas
       </Typography>
       <Typography
         sx={{
@@ -102,7 +102,7 @@ export function Testimonial() {
           fontFamily: 'Raleway, sans-serif',
         }}
       >
-        A totally personalized service
+        Un servicio totalmente personalizado
       </Typography>
       <Typography
         sx={{

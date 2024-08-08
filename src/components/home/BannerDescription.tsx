@@ -27,10 +27,10 @@ export function BannerDescription() {
         }}
       >
         <p style={{ margin: 0 }}>
-          An independent travel agency providing a completely personal and
-          bespoke service to create your next dream holiday.
+          Una agencia de viajes independiente. Ofrecemos un trato completamente
+          personal para crear las próximas vacaciones de tus sueños.
         </p>
-        <p style={{ margin: 0 }}>ABTA and ATOL protected.</p>
+        <p style={{ margin: 0 }}>Asistencia al viajero.</p>
       </Typography>
 
       <Button
@@ -45,7 +45,7 @@ export function BannerDescription() {
           textTransform: 'none',
         }}
       >
-        Travel Now
+        Viaja ahora
       </Button>
     </Box>
   )

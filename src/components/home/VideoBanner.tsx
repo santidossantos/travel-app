@@ -54,7 +54,7 @@ export function VideoBanner() {
             textAlign: 'center',
           }}
         >
-          Your next adventure is just a click away
+          Tu siguiente aventura al alcance de un click
         </Typography>
       </Box>
     </Box>

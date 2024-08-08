@@ -44,8 +44,8 @@ export function ContactPage() {
             marginTop: '-0.8rem',
           }}
         >
-          <span>info@thetravelco.co.uk</span>
-          <span>Phone: +44 (0)7905957003</span>
+          <span>info@triptavel.com</span>
+          <span>Teléfono: +54 9 1234567890</span>
         </Box>
 
         <ContactForm />
