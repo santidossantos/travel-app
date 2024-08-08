@@ -7,20 +7,28 @@ export function Footer() {
       sx={{
         backgroundColor: 'rgb(243,236,235)',
         color: 'rgb(71, 71, 71)',
-        padding: '25px',
+        padding: '10px',
       }}
     >
-      <Container>
+      <Container
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignContent: 'center',
+          gap: 0,
+        }}
+      >
         <Typography
           variant="h6"
           align="center"
           gutterBottom
           sx={{
             fontFamily: 'Playfair Display',
-            fontSize: '1.3em',
+            fontSize: '1.2em',
           }}
         >
-          Integrantes del grupo
+          Integrantes del Grupo
         </Typography>
         <Typography
           variant="h6"
@@ -28,6 +36,7 @@ export function Footer() {
           gutterBottom
           sx={{
             fontFamily: 'Aceh',
+            marginBottom: 0,
           }}
         >
           <Link
@@ -52,22 +61,6 @@ export function Footer() {
             Paula Agüero
           </Link>
         </Typography>
-        <Typography
-          variant="body2"
-          align="center"
-          gutterBottom
-          sx={{ fontFamily: 'Aceh', fontSize: '1.2em' }}
-        >
-          info@tripfinder.com
-        </Typography>
-        <Typography
-          variant="body2"
-          align="center"
-          gutterBottom
-          sx={{ fontFamily: 'Aceh', fontSize: '1.2em' }}
-        >
-          +54 9 1234567890
-        </Typography>
         <Box
           sx={{
             display: 'flex',
@@ -80,15 +73,20 @@ export function Footer() {
             variant="body2"
             align="center"
             gutterBottom
-            sx={{ fontFamily: 'Aceh', fontSize: '1.2em', fontWeight: 'bold' }}
+            sx={{
+              fontFamily: 'Aceh',
+              fontSize: '1.2em',
+              fontWeight: 'bold',
+              marginBottom: 0,
+            }}
           >
-            Repositorio
+            GitHub
           </Typography>
           <IconButton
             href="https://github.com/santidossantos/travel-app"
             color="inherit"
             sx={{
-              transform: 'scale(1.5)',
+              transform: 'scale(1.3)',
               '&:hover': {
                 backgroundColor: 'transparent',
                 boxShadow: 'none',
