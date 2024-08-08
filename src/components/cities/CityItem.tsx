@@ -3,15 +3,25 @@ import Card from '@mui/material/Card'
 import CardHeader from '@mui/material/CardHeader'
 import CardMedia from '@mui/material/CardMedia'
 import Typography from '@mui/material/Typography'
+import { SxProps } from '@mui/system'
+
+interface CityItemPropsExtended extends CityItemProps {
+  onClick?: () => void
+  sx?: SxProps
+}
 
 export function CityItem({
   title,
   subtitle,
   imageUrl,
-  description,
-}: CityItemProps) {
+  onClick,
+  sx,
+}: CityItemPropsExtended) {
   return (
-    <Card sx={{ width: 345, boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.1)' }}>
+    <Card
+      sx={{ width: 345, boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.1)', ...sx }}
+      onClick={onClick}
+    >
       <CardHeader
         sx={{
           height: 90,
@@ -52,11 +62,6 @@ export function CityItem({
           objectFit: 'cover',
         }}
       />
-      {/*  <CardContent>
-          <Typography variant="body2" color="text.secondary">
-            {description}
-          </Typography> 
-      </CardContent> */}
     </Card>
   )
 }

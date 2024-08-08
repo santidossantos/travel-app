@@ -3,29 +3,99 @@
         "title": "Barcelona, España",
         "subtitle": "Paisajes para alucinar",
         "imageUrl": "https://media.traveler.es/photos/61375f03ba2a75fcba4bdd3b/master/w_320%2Cc_limit/213172.jpg",
+        "photos": [
+            {
+                "src": "https://www.spain.info/.content/imagenes/cabeceras-grandes/cataluna/park-guell-barcelona-s-305364611.jpg",
+                "alt": "Foto 1"
+            },
+            {
+                "src": "https://www.cideu.org/wp-content/uploads/2019/12/barcelona1-1024x640.jpg",
+                "alt": "Foto 2"
+            },
+            {
+                "src": "https://azertag.az/files/galleryphoto/2023/1/1200x630/16729240644828613884_1200x630.jpg",
+                "alt": "Foto 3"
+            }
+        ],
         "description": "No se puede hablar de Barcelona sin mencionar a Antoni Gaudí, el arquitecto catalán que dejó su huella por toda la ciudad. Un paseo por la localidad te lleva a través de su ondulante mampostería y herrería, que incluyen el Parque Güell y culminan en su obra maestra inacabada La Sagrada Familia. Sin embargo, no se trata solo de mosaicos coloridos: desde las montañas hasta la playa, desde lo histórico hasta lo contemporáneo, la soleada Barcelona prácticamente lo tiene todo."
     },
     {
         "title": "Brujas, Bélgica",
         "subtitle": "Donde los cuentos de hadas cobran vida",
+        "photos": [
+            {
+                "src": "https://agathauraviajes.tur.ar/wp-content/uploads/2020/01/BRUJAS-Canal-Belgica-Noche-Puente-2-copia-1242x621.jpg",
+                "alt": "Foto 1"
+            },
+            {
+                "src": "https://images.squarespace-cdn.com/content/v1/5efce1f1f1c14550f51a35e4/1701364946118-MLDFJWB7CDR6MZBQQPVE/Alma+de+Viaje+-+Belgica+-+Brujas-8.jpg",
+                "alt": "Foto 2"
+            },
+            {
+                "src": "https://aunclicdelaaventura.com/wp-content/uploads/2017/03/Que-ver-en-Brujas-portada.jpg",
+                "alt": "Foto 3"
+            }
+        ],
         "imageUrl": "https://media.traveler.es/photos/61375f03d7c7024f9175dbef/master/w_320%2Cc_limit/213211.jpg",
         "description": "Con sus calles adoquinadas y sus tranquilos canales bordeados de árboles, no es difícil ver Brujas como un gran escenario en el que los cuentos de hadas cobran vida. Gran parte del encanto de la ciudad reside en su ciudad vieja inmaculadamente conservada, construida entre los siglos XII y XV. Siéntate en un café cerca del Markt (la plaza del centro histórico) y planea pasar allí la mayor parte del día."
     },
     {
         "title": "Buenos Aires, Argentina",
         "subtitle": "París de América del Sur",
+        "photos": [
+            {
+                "src": "https://cdn.britannica.com/40/195440-050-B3859318/Congressional-Plaza-building-National-Congress-Buenos-Aires.jpg",
+                "alt": "Foto 1"
+            },
+            {
+                "src": "https://www.fodors.com/wp-content/uploads/2018/08/HERO-BA-Instagrammable-Neighborhood-La-Boca-18.jpg",
+                "alt": "Foto 2"
+            },
+            {
+                "src": "https://i.pinimg.com/originals/c7/f2/7d/c7f27db9bcef8d209587f37d5b01f268.jpg",
+                "alt": "Foto 3"
+            }
+        ],
         "imageUrl": "https://media.traveler.es/photos/61375f0472cad4b2dbd5d0d2/master/w_320%2Cc_limit/213180.jpg",
         "description": "Buenos Aires es a menudo llamada el 'París de América del Sur', pero creemos que esta ciudad es única en su clase. Los amantes del diseño deben planificar al menos una visita al cementerio de la Recoleta, luego explorar los estilos arquitectónicos tremendamente variados en cada esquina, desde mansiones neoclásicas hasta los edificios pintados de vivos colores en La Boca. Y seamos sinceros: todo parece más hermoso con una banda sonora de asado chisporroteante y Malbec fluido."
     },
     {
         "title": "Florencia, Italia",
-        "subtitle": "incomparable en historia, arte y arquitectura",
+        "subtitle": "Incomparable en historia, arte y arquitectura",
+        "photos": [
+            {
+                "src": "https://www.viajesyfotografia.com/wp-content/uploads/2023/07/florencia-20230224_214946_result.jpg",
+                "alt": "Foto 1"
+            },
+            {
+                "src": "https://cdn.guialowcost.es/wp-content/uploads/Que-Ver-en-FLORENCIA-duomo.jpg",
+                "alt": "Foto 2"
+            },
+            {
+                "src": "https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/blog/florencia_ponte_vecchio_shutterstock_377104288.jpg?itok=1C3Ma_dS",
+                "alt": "Foto 3"
+            }
+        ],
         "imageUrl": "https://media.traveler.es/photos/61375f05f00fb1ba8d8667a6/master/w_320%2Cc_limit/213189.jpg",
         "description": "Italia no tiene escasez de hermosas ciudades, pero Florencia sigue siendo incomparable en historia, arte y arquitectura. Encontrarás rastros de estética renacentista por toda la ciudad, como la sorprendente Santa Maria del Fiore (El Duomo) y la Basílica de Santa Maria Novella. Mientras tanto, el Ponte Vecchio y los Uffizi siguen siendo fondos fotográficos imprescindibles."
     },
     {
         "title": "Londres, Reino Unido",
         "subtitle": "Una de las ciudades más vibrantes del mundo",
+        "photos": [
+            {
+                "src": "https://www.clarin.com/2018/05/05/HJ7fwuhpf_1256x620__1.jpg",
+                "alt": "Foto 1"
+            },
+            {
+                "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/9f/c0/78/felipe0rtegag.jpg?w=1400&h=1400&s=1",
+                "alt": "Foto 2"
+            },
+            {
+                "src": "https://www.elsudcaliforniano.com.mx/circulos/k6lxn5-london/ALTERNATES/LANDSCAPE_768/london",
+                "alt": "Foto 3"
+            }
+        ],
         "imageUrl": "https://media.traveler.es/photos/61375f06bae07f0d8a492432/master/w_320%2Cc_limit/213230.jpg",
         "description": "Londres es una de las ciudades más vibrantes del mundo, con historia (Abadía de Westminster) y modernidad (London Eye, The Gherkin) mezclados en el Támesis. El arte y la literatura parecen filtrarse de las paredes de la ciudad y, en los últimos años, Londres se ha vuelto aún más glamurosa, con galerías de arte contemporáneo y boutiques que añaden algo de brillo a áreas que antes eran demasiado formales."
     }
