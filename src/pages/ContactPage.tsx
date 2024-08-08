@@ -44,7 +44,7 @@ export function ContactPage() {
             marginTop: '-0.8rem',
           }}
         >
-          <span>info@triptavel.com</span>
+          <span>info@tripfinder.com</span>
           <span>Teléfono: +54 9 1234567890</span>
         </Box>
 

@@ -43,6 +43,7 @@ export function BannerDescription() {
           fontWeight: '300',
           padding: '8px 35px',
           textTransform: 'none',
+          ':hover': { backgroundColor: 'rgb(187,149,147, 0.8)' },
         }}
       >
         Viaja ahora

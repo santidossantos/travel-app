@@ -38,7 +38,7 @@ export function TourBanner() {
             fontFamily: 'Playfair Display, serif',
           }}
         >
-          Inspiración & Ofertas
+          Inspiración & Destinos
         </Typography>
         <Typography
           sx={{
