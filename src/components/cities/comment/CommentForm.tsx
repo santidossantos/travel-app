@@ -54,6 +54,8 @@ export function CommentForm({
           sx={{
             width: '15%',
             backgroundColor: 'rgb(137 89 86)',
+            transition: 'background-color 0.5s ease',
+            ':hover': { backgroundColor: 'rgb(187,149,147, 0.8)' },
           }}
           type="submit"
           variant="contained"
