@@ -31,7 +31,8 @@ export function CitiesPage() {
             fontSize: '1.5em',
             color: 'rgb(71, 71, 71)',
             fontWeight: 'bold',
-            padding: '20px',
+            paddingBlockStart: '0px',
+            paddingBlockEnd: '20px',
           }}
         >
           Selecciona una ciudad
