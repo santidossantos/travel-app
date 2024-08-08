@@ -1,4 +1,4 @@
-import { TextField, Button } from '@mui/material'
+import { TextField, Button, Box } from '@mui/material'
 import { useState } from 'react'
 import { CommentBoxProps } from '../../../interfaces/comment-box-props'
 
@@ -29,22 +29,38 @@ export function CommentForm({
       autoComplete="off"
       style={{
         display: 'flex',
-        flexDirection: 'column',
         gap: '2rem',
-        width: '80%',
-        maxWidth: '780px',
+        width: '100%',
       }}
     >
-      <TextField
-        id="standard-helperText"
-        placeholder="Deja aquí tu comentario..."
-        variant="standard"
-        value={commentText}
-        onChange={(e) => setCommentText(e.target.value)}
-      />
-      <Button type="submit" variant="contained" color="primary">
-        Enviar
-      </Button>
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignContent: 'center',
+          width: '100%',
+          gap: '5%',
+        }}
+      >
+        <TextField
+          sx={{ width: '80%' }}
+          id="standard-helperText"
+          placeholder="Deja aquí tu comentario..."
+          variant="standard"
+          value={commentText}
+          onChange={(e) => setCommentText(e.target.value)}
+        />
+        <Button
+          sx={{
+            width: '15%',
+            backgroundColor: 'rgb(137 89 86)',
+          }}
+          type="submit"
+          variant="contained"
+        >
+          Enviar
+        </Button>
+      </Box>
     </form>
   )
 }

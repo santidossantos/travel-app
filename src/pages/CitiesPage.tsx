@@ -19,6 +19,8 @@ export function CitiesPage() {
 
   const handleCityClick = (city: CityItemProps) => {
     setSelectedCity(city)
+    console.log('city', city)
+    console.log(selectedCity)
     if (galleryRef.current) {
       galleryRef.current.scrollIntoView({ behavior: 'smooth' })
     }
@@ -82,9 +84,11 @@ export function CitiesPage() {
         <Gallery city={selectedCity} />
       </section>
 
-      <section>
+      <Box sx={{
+        padding: '30px',
+      }}>
         <CommentSection initialComments={selectedCity.comments} />
-      </section>
+      </Box>
     </Box>
   )
 }

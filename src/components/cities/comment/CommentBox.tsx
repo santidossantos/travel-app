@@ -3,7 +3,13 @@ import { CommentBoxProps } from '../../../interfaces/comment-box-props'
 
 export function CommentBox({ avatarUrl, name, comment }: CommentBoxProps) {
   return (
-    <Paper style={{ padding: '40px 20px' }}>
+    <Paper
+      style={{
+        width: '100%',
+        padding: '20px 10px',
+        boxShadow: '0 2px 4px 0 rgba(0,0,0,0.6)',
+      }}
+    >
       <Grid container wrap="nowrap" spacing={2}>
         <Grid item>
           <Avatar alt={name} src={avatarUrl} />
@@ -16,7 +22,7 @@ export function CommentBox({ avatarUrl, name, comment }: CommentBoxProps) {
           </p>
         </Grid>
       </Grid>
-      <Divider variant="fullWidth" style={{ margin: '30px 0' }} />
+      <Divider variant="fullWidth" style={{ margin: '10px 0' }} />
     </Paper>
   )
 }
