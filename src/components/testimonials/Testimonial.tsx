@@ -23,7 +23,7 @@ export function Testimonial() {
           fontFamily: 'Raleway, sans-serif',
         }}
       >
-        Personalised service that went above and beyond
+        Destinations that exceeded expectations
       </Typography>
       <Typography
         sx={{
@@ -40,29 +40,44 @@ export function Testimonial() {
         }}
       >
         <span>
-          My partner and I were looking for a relaxed, couples’ only getaway. We
-          had a few days, so wanted to make sure we planned our days well.
+          "Florencia es como caminar a través de un museo al aire libre. Ver la
+          Catedral de Santa María del Fiore y las obras de arte en la Galería
+          Uffizi fue una experiencia que nunca olvidaré. Me encantó perderme en
+          sus calles antiguas y descubrir pequeños cafés escondidos. La comida
+          toscana es deliciosa; probé una pasta fresca que simplemente no puedo
+          dejar de recordar."
         </span>
         <span>
-          Tara was absolutely the right travel agent. Her service was not only
-          tailored to what we were looking for, but Tara’s spanersonal touches
-          ensured we were looked after throughout our stay.
+          "Mi viaje a Buenos Aires fue una auténtica maravilla. La ciudad tiene
+          una energía contagiosa y un carácter único. Me encantó pasear por San
+          Telmo y ver los artistas callejeros, además de disfrutar de un buen
+          asado. No te puedes perder un show de tango en vivo; es una
+          experiencia que te llena el alma."
         </span>
         <span>
-          Delays to our flight meant we missed our first evening’s half board
-          dinner. When we got to the hotel, Tara had called ahead and asked the
-          staff to ospanen their restaurant and spanrespanare an evening meal
-          just for the two of us. Tara also booked our tours in Menorca. Due to
-          our limited time, she even managed to book us a tour on a day when no
-          tours were advertised.
+          "Barcelona fue una experiencia maravillosa. Me encantaron las vistas
+          desde el Parque Güell y la majestuosidad de la Sagrada Familia.
+          Disfruté mucho explorando el Barrio Gótico y paseando por las Ramblas.
+          Las tapas y el ambiente en la playa también fueron lo mejor. Sin
+          embargo, me habría gustado tener más tiempo para visitar el Museo
+          Picasso y hacer una excursión a Montjuïc. ¡Definitivamente tengo que
+          regresar para explorar esos lugares que me perdí!"
         </span>
         <span>
-          These spanersonal touches, Tara’s knowledge and commitment to her
-          clients, and fabulous customer service, made it a spanerfect holiday.
+          "Londres es una ciudad que tiene algo para todos. Me sorprendió la
+          mezcla de lo moderno y lo histórico, desde el bullicio de Covent
+          Garden hasta la tranquilidad de los parques reales. Los museos son de
+          primera clase, y cada barrio tiene su propia personalidad. ¡No hay
+          mejor manera de terminar el día que en un pub tradicional con una
+          pinta de cerveza y una conversación animada!"
         </span>
         <span>
-          We cannot thank Tara enough. We are going to book with her again,
-          knowing that we are in safe hands!
+          "Brujas es como un sueño hecho realidad. Los canales y las casas
+          medievales parecen sacadas de un cuento de hadas. Hice un paseo en
+          bote por los canales y fue absolutamente mágico. También me perdí en
+          sus encantadoras callejuelas, y cada esquina parecía más pintoresca
+          que la anterior. ¡Definitivamente un lugar para añadir a tu lista de
+          deseos!"
         </span>
 
         <Typography
@@ -74,7 +89,7 @@ export function Testimonial() {
             opacity: '0.9',
           }}
         >
-          Anju and Simon
+          ¡Gracias!
         </Typography>
       </Typography>
 
@@ -87,7 +102,7 @@ export function Testimonial() {
           fontFamily: 'Raleway, sans-serif',
         }}
       >
-        Personalised service that went above and beyond
+        A totally personalized service
       </Typography>
       <Typography
         sx={{
@@ -104,29 +119,41 @@ export function Testimonial() {
         }}
       >
         <span>
-          My partner and I were looking for a relaxed, couples’ only getaway. We
-          had a few days, so wanted to make sure we planned our days well.
+          “Queremos dar un enorme agradecimiento a Trip Finder por hacer que
+          nuestra experiencia en Barcelona fuera tan memorable. Desde explorar
+          las maravillas de Gaudí hasta disfrutar de las vibrantes Ramblas y las
+          playas soleadas, cada detalle fue cuidadosamente planeado. Nos
+          sentimos bien cuidados y bienvenidos en cada paso del camino.”
         </span>
         <span>
-          Tara was absolutely the right travel agent. Her service was not only
-          tailored to what we were looking for, but Tara’s spanersonal touches
-          ensured we were looked after throughout our stay.
+          "¡Gracias, Trip Finder, por hacer que nuestra visita a Brujas fuera
+          mágica! Los paseos en bote por los encantadores canales y las
+          recomendaciones para los cafés medievales hicieron que cada día fuera
+          un cuento de hadas. La atención a los detalles y la organización
+          impecable hicieron que nuestra estadía fuera simplemente perfecta."
         </span>
         <span>
-          Delays to our flight meant we missed our first evening’s half board
-          dinner. When we got to the hotel, Tara had called ahead and asked the
-          staff to ospanen their restaurant and spanrespanare an evening meal
-          just for the two of us. Tara also booked our tours in Menorca. Due to
-          our limited time, she even managed to book us a tour on a day when no
-          tours were advertised.
+          "Queremos expresar nuestra gratitud a Trip Finder por la fantástica
+          organización de nuestro viaje a Buenos Aires. Desde disfrutar de los
+          asados en los mejores restaurantes hasta asistir a emocionantes shows
+          de tango, cada experiencia fue bien coordinada y perfectamente
+          adaptada a nuestros intereses. Nos sentimos como locales en una ciudad
+          vibrante y apasionante."
         </span>
         <span>
-          These spanersonal touches, Tara’s knowledge and commitment to her
-          clients, and fabulous customer service, made it a spanerfect holiday.
+          "Nuestra aventura en Florencia superó todas nuestras expectativas, y
+          todo gracias a Trip Finder. La planificación detallada nos permitió
+          explorar la rica historia y la impresionante arquitectura renacentista
+          con total comodidad. La comida toscana fue un verdadero deleite, y
+          cada momento en esta hermosa ciudad fue cuidadosamente organizado."
         </span>
         <span>
-          We cannot thank Tara enough. We are going to book with her again,
-          knowing that we are in safe hands!
+          "Un agradecimiento especial a Trip Finder por hacer que nuestra visita
+          a Londres fuera increíblemente fluida y enriquecedora. Desde los
+          fascinantes museos hasta los tranquilos parques y la vibrante vida
+          urbana, cada día estuvo lleno de sorpresas. La manera en que se
+          gestionaron los detalles del viaje hizo que todo fuera mucho más fácil
+          y agradable."
         </span>
 
         <Typography
@@ -138,7 +165,7 @@ export function Testimonial() {
             opacity: '0.9',
           }}
         >
-          Anju and Simon
+          ¡Gracias por el cariño!
         </Typography>
       </Typography>
     </Box>
