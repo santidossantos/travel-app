@@ -17,7 +17,19 @@
                 "alt": "Foto 3"
             }
         ],
-        "description": "No se puede hablar de Barcelona sin mencionar a Antoni Gaudí, el arquitecto catalán que dejó su huella por toda la ciudad. Un paseo por la localidad te lleva a través de su ondulante mampostería y herrería, que incluyen el Parque Güell y culminan en su obra maestra inacabada La Sagrada Familia. Sin embargo, no se trata solo de mosaicos coloridos: desde las montañas hasta la playa, desde lo histórico hasta lo contemporáneo, la soleada Barcelona prácticamente lo tiene todo."
+        "description": "No se puede hablar de Barcelona sin mencionar a Antoni Gaudí, el arquitecto catalán que dejó su huella por toda la ciudad. Un paseo por la localidad te lleva a través de su ondulante mampostería y herrería, que incluyen el Parque Güell y culminan en su obra maestra inacabada La Sagrada Familia. Sin embargo, no se trata solo de mosaicos coloridos: desde las montañas hasta la playa, desde lo histórico hasta lo contemporáneo, la soleada Barcelona prácticamente lo tiene todo.",
+        "comments": [
+            {
+                "avatarUrl": "https://randomuser.me/api/portraits/men/1.jpg",
+                "name": "Carlos García",
+                "comment": "Barcelona es realmente impresionante, el trabajo de Gaudí es algo que no puedes perderte."
+            },
+            {
+                "avatarUrl": "https://randomuser.me/api/portraits/women/2.jpg",
+                "name": "María López",
+                "comment": "La mezcla de historia y modernidad en Barcelona es única, ¡me encantó la playa!"
+            }
+        ]
     },
     {
         "title": "Brujas, Bélgica",
@@ -37,7 +49,19 @@
             }
         ],
         "imageUrl": "https://media.traveler.es/photos/61375f03d7c7024f9175dbef/master/w_320%2Cc_limit/213211.jpg",
-        "description": "Con sus calles adoquinadas y sus tranquilos canales bordeados de árboles, no es difícil ver Brujas como un gran escenario en el que los cuentos de hadas cobran vida. Gran parte del encanto de la ciudad reside en su ciudad vieja inmaculadamente conservada, construida entre los siglos XII y XV. Siéntate en un café cerca del Markt (la plaza del centro histórico) y planea pasar allí la mayor parte del día."
+        "description": "Con sus calles adoquinadas y sus tranquilos canales bordeados de árboles, no es difícil ver Brujas como un gran escenario en el que los cuentos de hadas cobran vida. Gran parte del encanto de la ciudad reside en su ciudad vieja inmaculadamente conservada, construida entre los siglos XII y XV. Siéntate en un café cerca del Markt (la plaza del centro histórico) y planea pasar allí la mayor parte del día.",
+        "comments": [
+            {
+                "avatarUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+                "name": "Laura Fernández",
+                "comment": "Brujas es como un viaje en el tiempo, cada rincón es una postal."
+            },
+            {
+                "avatarUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+                "name": "José Martínez",
+                "comment": "La tranquilidad de los canales y la arquitectura medieval hacen de Brujas un destino mágico."
+            }
+        ]
     },
     {
         "title": "Buenos Aires, Argentina",
@@ -57,7 +81,19 @@
             }
         ],
         "imageUrl": "https://media.traveler.es/photos/61375f0472cad4b2dbd5d0d2/master/w_320%2Cc_limit/213180.jpg",
-        "description": "Buenos Aires es a menudo llamada el 'París de América del Sur', pero creemos que esta ciudad es única en su clase. Los amantes del diseño deben planificar al menos una visita al cementerio de la Recoleta, luego explorar los estilos arquitectónicos tremendamente variados en cada esquina, desde mansiones neoclásicas hasta los edificios pintados de vivos colores en La Boca. Y seamos sinceros: todo parece más hermoso con una banda sonora de asado chisporroteante y Malbec fluido."
+        "description": "Buenos Aires es a menudo llamada el 'París de América del Sur', pero creemos que esta ciudad es única en su clase. Los amantes del diseño deben planificar al menos una visita al cementerio de la Recoleta, luego explorar los estilos arquitectónicos tremendamente variados en cada esquina, desde mansiones neoclásicas hasta los edificios pintados de vivos colores en La Boca. Y seamos sinceros: todo parece más hermoso con una banda sonora de asado chisporroteante y Malbec fluido.",
+        "comments": [
+            {
+                "avatarUrl": "https://randomuser.me/api/portraits/men/5.jpg",
+                "name": "Federico Rossi",
+                "comment": "Buenos Aires tiene una energía que no se puede explicar, tienes que vivirla."
+            },
+            {
+                "avatarUrl": "https://randomuser.me/api/portraits/women/6.jpg",
+                "name": "Ana Torres",
+                "comment": "La diversidad arquitectónica y cultural de Buenos Aires es impresionante, ¡un destino imperdible!"
+            }
+        ]
     },
     {
         "title": "Florencia, Italia",
@@ -77,7 +113,19 @@
             }
         ],
         "imageUrl": "https://media.traveler.es/photos/61375f05f00fb1ba8d8667a6/master/w_320%2Cc_limit/213189.jpg",
-        "description": "Italia no tiene escasez de hermosas ciudades, pero Florencia sigue siendo incomparable en historia, arte y arquitectura. Encontrarás rastros de estética renacentista por toda la ciudad, como la sorprendente Santa Maria del Fiore (El Duomo) y la Basílica de Santa Maria Novella. Mientras tanto, el Ponte Vecchio y los Uffizi siguen siendo fondos fotográficos imprescindibles."
+        "description": "Italia no tiene escasez de hermosas ciudades, pero Florencia sigue siendo incomparable en historia, arte y arquitectura. Encontrarás rastros de estética renacentista por toda la ciudad, como la sorprendente Santa Maria del Fiore (El Duomo) y la Basílica de Santa Maria Novella. Mientras tanto, el Ponte Vecchio y los Uffizi siguen siendo fondos fotográficos imprescindibles.",
+        "comments": [
+            {
+                "avatarUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+                "name": "Giulia Moretti",
+                "comment": "Florencia es un museo al aire libre, cada esquina tiene algo para admirar."
+            },
+            {
+                "avatarUrl": "https://randomuser.me/api/portraits/men/8.jpg",
+                "name": "Luca Bianchi",
+                "comment": "La historia y el arte en Florencia son incomparables, ¡volvería una y otra vez!"
+            }
+        ]
     },
     {
         "title": "Londres, Reino Unido",
@@ -97,6 +145,18 @@
             }
         ],
         "imageUrl": "https://media.traveler.es/photos/61375f06bae07f0d8a492432/master/w_320%2Cc_limit/213230.jpg",
-        "description": "Londres es una de las ciudades más vibrantes del mundo, con historia (Abadía de Westminster) y modernidad (London Eye, The Gherkin) mezclados en el Támesis. El arte y la literatura parecen filtrarse de las paredes de la ciudad y, en los últimos años, Londres se ha vuelto aún más glamurosa, con galerías de arte contemporáneo y boutiques que añaden algo de brillo a áreas que antes eran demasiado formales."
+        "description": "Londres es una de las ciudades más vibrantes del mundo, con historia (Abadía de Westminster) y modernidad (London Eye, The Gherkin) mezclados en el Támesis. El arte y la literatura parecen filtrarse de las paredes de la ciudad y, en los últimos años, Londres se ha vuelto aún más glamurosa, con galerías de arte contemporáneo y boutiques que añaden algo de brillo a áreas que antes eran demasiado formales.",
+        "comments": [
+            {
+                "avatarUrl": "https://randomuser.me/api/portraits/men/9.jpg",
+                "name": "John Smith",
+                "comment": "Londres es una ciudad que siempre está en movimiento, hay tanto por descubrir."
+            },
+            {
+                "avatarUrl": "https://randomuser.me/api/portraits/women/10.jpg",
+                "name": "Emily Johnson",
+                "comment": "La mezcla de lo antiguo y lo moderno en Londres es fascinante, ¡una ciudad vibrante!"
+            }
+        ]
     }
 ]

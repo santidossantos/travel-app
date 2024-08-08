@@ -30,7 +30,8 @@ function App() {
             <Route path="/testimonios" element={<TestimonialPage />} />
             <Route path="/tours" element={<ToursPage />} />
             <Route path="/contacto" element={<ContactPage />} />
-            <Route path="/ciudades" element={<CitiesPage/>} />
+            <Route path="/ciudades" element={<CitiesPage />} />
+            <Route path="*" element={<h1>404 - Not Found</h1>} />
           </Routes>
         </Router>
       </main>

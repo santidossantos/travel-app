@@ -4,6 +4,7 @@ import { CityItemProps } from '../interfaces/city-item-props'
 import { useState, useRef } from 'react'
 import cityItems from '../mocks/city-items.json'
 import { CityItem } from '../components/cities/CityItem'
+import { CommentSection } from '../components/cities/comment/CommentSection'
 
 const cities: CityItemProps[] = cityItems as CityItemProps[]
 
@@ -36,12 +37,7 @@ export function CitiesPage() {
         >
           Selecciona una ciudad
         </Typography>
-        <Box
-          display="flex"
-          flexWrap="wrap"
-          gap={2}
-          justifyContent="center"
-        >
+        <Box display="flex" flexWrap="wrap" gap={2} justifyContent="center">
           {cities.map((city) => (
             <CityItem
               key={city.title}
@@ -58,7 +54,7 @@ export function CitiesPage() {
                   height: 80,
                 },
                 '& .MuiTypography-h6': {
-                  fontSize: '1.1em', 
+                  fontSize: '1.1em',
                 },
                 '& .MuiTypography-subtitle1': {
                   fontSize: '1.2em',
@@ -70,6 +66,10 @@ export function CitiesPage() {
       </Box>
       <section className="gallery" ref={galleryRef}>
         <Gallery city={selectedCity} />
+      </section>
+
+      <section>
+        <CommentSection initialComments={selectedCity.comments} />
       </section>
     </Box>
   )
