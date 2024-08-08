@@ -4,6 +4,9 @@ import { CityItemProps } from '../interfaces/city-item-props'
 import { useState, useRef } from 'react'
 import cityItems from '../mocks/city-items.json'
 import { CityItem } from '../components/cities/CityItem'
+import { CommentBox } from '../components/cities/comment/CommentBox'
+import { CommentForm } from '../components/cities/comment/CommentForm'
+import { CommentSecction } from '../components/cities/comment/CommentSection'
 
 const cities: CityItemProps[] = cityItems as CityItemProps[]
 
@@ -35,12 +38,7 @@ export function CitiesPage() {
         >
           Selecciona una ciudad
         </Typography>
-        <Box
-          display="flex"
-          flexWrap="wrap"
-          gap={2} // Espacio entre los ítems
-          justifyContent="center" // Opcional: Centrar los ítems
-        >
+        <Box display="flex" flexWrap="wrap" gap={2} justifyContent="center">
           {cities.map((city) => (
             <CityItem
               key={city.title}
@@ -48,19 +46,19 @@ export function CitiesPage() {
               onClick={() => handleCityClick(city)}
               sx={{
                 cursor: 'pointer',
-                width: 280, // Tamaño reducido
-                boxShadow: '0 0 8px 0 rgba(0, 0, 0, 0.1)', // Sombra más suave
+                width: 280,
+                boxShadow: '0 0 8px 0 rgba(0, 0, 0, 0.1)',
                 '& img': {
-                  height: 150, // Altura de la imagen reducida
+                  height: 150,
                 },
                 '& .MuiCardHeader-root': {
-                  height: 80, // Reducir altura del encabezado
+                  height: 80,
                 },
                 '& .MuiTypography-h6': {
-                  fontSize: '1.1em', // Tamaño de fuente reducido
+                  fontSize: '1.1em',
                 },
                 '& .MuiTypography-subtitle1': {
-                  fontSize: '1.2em', // Tamaño de fuente reducido
+                  fontSize: '1.2em',
                 },
               }}
             />
@@ -69,6 +67,11 @@ export function CitiesPage() {
       </Box>
       <section className="gallery" ref={galleryRef}>
         <Gallery city={selectedCity} />
+      </section>
+
+      <section>
+        <CommentForm />
+        <CommentSecction comments={selectedCity.comments} />
       </section>
     </Box>
   )
