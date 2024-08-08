@@ -4,9 +4,7 @@ import { CityItemProps } from '../interfaces/city-item-props'
 import { useState, useRef } from 'react'
 import cityItems from '../mocks/city-items.json'
 import { CityItem } from '../components/cities/CityItem'
-import { CommentBox } from '../components/cities/comment/CommentBox'
-import { CommentForm } from '../components/cities/comment/CommentForm'
-import { CommentSecction } from '../components/cities/comment/CommentSection'
+import { CommentSection } from '../components/cities/comment/CommentSection'
 
 const cities: CityItemProps[] = cityItems as CityItemProps[]
 
@@ -70,8 +68,7 @@ export function CitiesPage() {
       </section>
 
       <section>
-        <CommentForm />
-        <CommentSecction comments={selectedCity.comments} />
+        <CommentSection initialComments={selectedCity.comments} />
       </section>
     </Box>
   )
