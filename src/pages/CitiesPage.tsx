@@ -5,6 +5,11 @@ import { useState, useRef } from 'react'
 import cityItems from '../mocks/city-items.json'
 import { CityItem } from '../components/cities/CityItem'
 import { CommentSection } from '../components/cities/comment/CommentSection'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import '../styles/cities/CityList.css'
 
 const cities: CityItemProps[] = cityItems as CityItemProps[]
 
@@ -37,31 +42,39 @@ export function CitiesPage() {
         >
           Selecciona una ciudad
         </Typography>
-        <Box display="flex" flexWrap="wrap" gap={2} justifyContent="center">
-          {cities.map((city) => (
-            <CityItem
-              key={city.title}
-              {...city}
-              onClick={() => handleCityClick(city)}
-              sx={{
-                cursor: 'pointer',
-                width: 280,
-                boxShadow: '0 0 8px 0 rgba(0, 0, 0, 0.1)',
-                '& img': {
-                  height: 150,
-                },
-                '& .MuiCardHeader-root': {
-                  height: 80,
-                },
-                '& .MuiTypography-h6': {
-                  fontSize: '1.1em',
-                },
-                '& .MuiTypography-subtitle1': {
-                  fontSize: '1.2em',
-                },
-              }}
-            />
-          ))}
+        <Box
+          sx={{
+            width: '100vw',
+            flexGrow: 1,
+          }}
+        >
+          <Swiper navigation={true} modules={[Navigation]} slidesPerView={3}>
+            {cities.map((city) => (
+              <SwiperSlide key={city.title}>
+                <CityItem
+                  {...city}
+                  onClick={() => handleCityClick(city)}
+                  sx={{
+                    cursor: 'pointer',
+                    width: 280,
+                    boxShadow: '0 0 8px 0 rgba(0, 0, 0, 0.1)',
+                    '& img': {
+                      height: 150,
+                    },
+                    '& .MuiCardHeader-root': {
+                      height: 80,
+                    },
+                    '& .MuiTypography-h6': {
+                      fontSize: '1.1em',
+                    },
+                    '& .MuiTypography-subtitle1': {
+                      fontSize: '1.2em',
+                    },
+                  }}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </Box>
       </Box>
       <section className="gallery" ref={galleryRef}>

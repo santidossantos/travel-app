@@ -14,9 +14,11 @@ export default function CityList({ cities }: CityListProps) {
           <CityItem
             title={city.title}
             subtitle={city.subtitle}
-            imageUrl={city.imageUrl} 
-            photos={[]} 
-            description={''}          />
+            imageUrl={city.imageUrl}
+            photos={[]}
+            description={''}
+            comments={[]}
+          />
         </SwiperSlide>
       ))}
     </Swiper>
